@@ -103,10 +103,8 @@ Example `credentials.json`:
    git clone https://github.com/devilshadow04/greater-sydney-spatial-analysis.git
    cd greater-sydney-spatial-analysis
    ```
-2. Create the database and enable PostGIS:
+2. Enable PostGIS on PostgreSQL:
    ```sql
-   CREATE DATABASE sydney_analysis;
-   \c sydney_analysis
    CREATE EXTENSION postgis;
    ```
 3. Update connection settings in `credentials.json`.
