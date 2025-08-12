@@ -100,8 +100,8 @@ Example `credentials.json`:
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone <repo_url>
-   cd <repo_folder>
+   git clone https://github.com/devilshadow04/greater-sydney-spatial-analysis.git
+   cd greater-sydney-spatial-analysis
    ```
 2. Create the database and enable PostGIS:
    ```sql
